@@ -1,0 +1,265 @@
+:root {
+    font-family:Arial, Helvetica, sans-serif;
+    --cloudburst: #223856;
+    --Malibu: #90d6f6;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+    font-size: 200%;
+    padding: 30px;
+    text-align: center;
+    background: var(--cloudburst);
+    color: var(--Malibu);
+}
+
+img {
+    height: 75px;
+    width:75px;
+    vertical-align: middle;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--Malibu);
+    justify-content: right;
+    padding-right: 40px;
+}
+
+.nav a {
+    color: var(--cloudburst);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    background-color:var(--cloudburst);
+    color: var(--Malibu);
+}
+
+body {
+    color: var(--Malibu);
+    background-color: var(--cloudburst);
+}
+
+.FlexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 50px 100px;
+}
+
+.FlexItem1 {
+    display: 0 0 20%;
+    text-align: right;
+    font-size: 40px;
+    max-width: 20%;
+    min-width: 20%;
+    color: var(--Malibu);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: right;
+}
+
+.vl {
+    border-right: 2px solid var(--Malibu);
+    margin: 0 20px;
+}
+
+.FlexItem2 {
+    display: flex;
+    flex: 0 0 67%;
+    max-width: 67%;
+    min-width: 67%;
+    color:var(--Malibu)
+}
+
+.Work-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Work1 {
+    flex: 1 1 100%;
+    color: var(--cloudburst);
+    border: 1px solid var(--Malibu);
+    height: 200px;
+    background: rgb(226, 79, 79);
+    width: 200px;
+    outline: 5px solid var(--Malibu);
+    margin: 10px 10px 10px 10px;
+}
+
+.Work1:hover {
+    outline: 5px solid white;
+    z-index: 0;
+}
+
+.Work-Container h3 {
+    font-size: 20px;
+    color: var(--Malibu);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cloudburst);
+}
+
+.Work2 {
+    flex: 1 1 45%;
+    color: var(--cloudburst);
+    border: 1px solid var(--Malibu);
+    height: 200px;
+    background-color: rgb(192, 56, 192);
+    width:10px;
+    outline: 5px solid var(--Malibu);
+    margin:10px;
+}
+
+.Work2:hover {
+    outline: 5px solid white;
+    z-index: 0;
+}
+
+.Work3 {
+    flex: 1 1 45%;
+    color: var(--cloudburst);
+    border: 1px solid var(--Malibu);
+    height: 200px;
+    background-color: rgb(79, 202, 74);
+    width:10px;
+    outline: 5px solid var(--Malibu);
+    margin:10px;
+}
+
+.Work3:hover {
+    outline: 5px solid white;
+    z-index: 0;
+}
+
+.Work4 {
+    flex: 1 1 45%;
+    color: var(--cloudburst);
+    border: 1px solid var(--Malibu);
+    height: 200px;
+    background-color: rgb(66, 156, 216);
+    width:200px;
+    outline: 5px solid var(--Malibu);
+    margin:10px;
+}
+
+.Work4:hover {
+    outline: 5px solid white;
+    z-index: 0;
+}
+
+.Work5 {
+    flex: 1 1 45%;
+    color: var(--cloudburst);
+    border: 1px solid var(--Malibu);
+    height: 200px;
+    background-color: rgb(236, 234, 73);
+    width:200px;
+    outline: 5px solid var(--Malibu);
+    margin:10px;
+}
+
+.Work5:hover {
+    outline: 5px solid white;
+    z-index: 0;
+}
+
+.contact-info {
+    font-size:20px;
+}
+
+.contact-info h3 {
+    padding: 5px 0px;
+}
+
+a {
+    color: var(--Malibu);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 734px) {
+    .FlexContainer {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 50px 10px;
+    }
+
+    .FlexItem1 {
+        display: 0 0 100%;
+        text-align: center;
+        font-size: 40px;
+        max-width: 100%;
+        min-width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    
+    .vl {
+        border-left: 2px solid var(--Malibu);
+        margin: 0 20px;
+    }
+    
+    .FlexItem2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        max-width: 100%;
+        min-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .contact-info {
+        font-size:12px;
+        text-align:center;
+    }
+
+    .row, .nav {   
+        flex-direction: column;
+      }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: var(--Malibu);
+        justify-content: right;
+        padding-right: 0px;
+    }
+
+    .nav a {
+        color: var(--cloudburst);
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+    }
+  }
