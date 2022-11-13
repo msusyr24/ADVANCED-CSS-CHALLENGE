@@ -10,7 +10,7 @@ Screenshot showing the navbar collapsing when the user narrows the width of the 
 <img src="https://github.com/msusyr24/ADVANCED-CSS-CHALLENGE/blob/791870fca6db8fa1e4bab1aa4283e2c4af678ddd/Nav%20Collapse.png">
 
 Screenshot showing Flexbox use in CSS, along with highlight function on hover-over.
-<img src="https://github.com/msusyr24/ADVANCED-CSS-CHALLENGE/blob/791870fca6db8fa1e4bab1aa4283e2c4af678ddd/Flexbox.png>>
+<img src="https://github.com/msusyr24/ADVANCED-CSS-CHALLENGE/blob/e091c78df16c2a016005d0629f37295344330906/Flexbox.png">
 
 
 Link to Deployed Application: 
