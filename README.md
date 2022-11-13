@@ -13,7 +13,8 @@ Screenshot showing Flexbox use in CSS, along with highlight function on hover-ov
 <img src="https://github.com/msusyr24/ADVANCED-CSS-CHALLENGE/blob/e091c78df16c2a016005d0629f37295344330906/Flexbox.png">
 
 
-Link to Deployed Application: 
+Link to Deployed Application:
+https://msusyr24.github.io/ADVANCED-CSS-CHALLENGE/
 
 MIT License
 
