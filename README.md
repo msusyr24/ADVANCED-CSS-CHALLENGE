@@ -1,7 +1,7 @@
 # ADVANCED-CSS-CHALLENGE
 
 Project Description: This project is the beginning of a portfolio that can be provided to potential employers.
-In a clean presentation, we have presented our ability to use Flexbox, Media Queries, and CSS variables. To show boht skills and have clean design, the nav links jump the page to those sections of the webpage. 
+In a clean presentation, we have presented our ability to use Flexbox, Media Queries, and CSS variables. To show both skills and have clean design, the nav links jump the page to those sections of the webpage. 
 
 Being early in my career, the projects are placeholders that can easily be swapped out with links to projects.
 
